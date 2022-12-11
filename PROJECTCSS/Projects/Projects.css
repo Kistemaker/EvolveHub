@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mb-5 {
+    font-size:120px;
+    padding-bottom: 40px;
+    
+}
+
+.wrapper1 {
+    margin-left:30px;
+    margin-right:30px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position:relative;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+footer {
+  background-color: #0b6efd;
+  margin: 0%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.contact-footer {
+    cursor: pointer;
+    color:#ffffff;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration: solid;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+    
+    
+}
+
+.subscribe-footer {
+    cursor: pointer;
+    color:#ffffff;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration: solid;
+    text-align: right;
+    padding-left: 50px;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='50' height='60' viewport='0 0 100 100' style='fill:black;font-size:30px;'><text y='50%'>💕</text></svg>") 16 0,auto; /*!emojicursor.app*/
+    
+}
+
+.contact-footer:hover {
+    color:#32e6f0;
+}
+
+.subscribe-footer:hover {
+    color:#32e6f0;
+}
+
+.ImageProjectDv {
+    text-align: center;
+}
+
+.ImageProjects {
+    max-width: 100%;
+}
+
+
+.dividerone {
+    width: 20%;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #0b6efd;
+}
+
+.text-box {
+    padding-bottom:35px;
+    padding-top:35px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-bottom-style: none;
+    border-radius: 20px;
+    background-color: #f8f3ef;
+
+}
+
+.wrapper {
+    display: flex;
+    padding-top: 50px; 
+    justify-content: left;
+}
+
+.collapsible {
+    max-width: 450px;
+    overflow: hidden;
+    font-weight:500;
+}
+
+.collapsible input {
+    display: none;
+}
+
+.collapsible label {
+    position: relative; 
+    font-weight: 600; 
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(124, 123, 123, 0.1), 0 4px 11px 0 rgba(70, 70, 70, 0.8);
+    color: #1f1f94;
+    display: block;
+    margin-bottom: 10px;
+    cursor:pointer;
+    padding: 15px; 
+    border-radius: 4px;
+    z-index: 1;
+}
+
+.collapsible label:after {
+    content: "";
+    position: absolute;
+    right: 15px; 
+    top: 15px; 
+    width: 18px; 
+    height: 18px; 
+    background: url(Arrow.svg) no-repeat 0,0; 
+    transition: all 0.3s ease;
+
+}
+
+.collapsible input:checked + label:after {
+    transform: rotate(90deg);
+    
+
+}
+
+.collapsible-text {
+    max-height: 1px;
+    overflow: hidden; 
+    border-radius: 4; 
+    line-height: 1.4;
+    position: relative;
+    top: -100%; 
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+
+.collapsible input:checked ~ .collapsible-text {
+    max-height: 300px;
+    padding-bottom: 25px;
+    background: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0, .1), 0 4px 11px 0 rgba(0,0,0, 0.8);
+    opacity: 1;
+    top: 0;
+}
+
+.collapsible-text h3 {
+    margin-bottom: 10px;
+    padding: 15px 15px 0; 
+    color: #0b6efd; 
+}
+
+.collapsible-text p{ 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+
+
